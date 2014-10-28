@@ -75,11 +75,11 @@ body {
 }
 */
 #stargazer { 
-    background: url(/assets/section_background_03.png) no-repeat; 
-    height: auto;  
+    background: url(/assets/section_background_03.png) no-repeat bottom; 
+    height: 500px;  
     float: left;
     position: relative; 
-    padding: 300 325px;
+    /*padding: 300 325px;*/
     color: #fff;
     bottom: 0;
 }
