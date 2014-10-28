@@ -3,6 +3,16 @@
   src: url('/fonts/aeroextended.eot');
   src: url('/fonts/aeroextended.ttf')  format('truetype');
 }
+@font-face {
+  font-family: 'AeroExtendedItalic';
+  src: url('/fonts/aeroextendeditalic.eot');
+  src: url('/fonts/aeroextendeditalic.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'WallStreetExtended';
+  src: url('/fonts/wallstreetextended.eot');
+  src: url('/fonts/wallstreetextended.ttf')  format('truetype');
+}
 
 a,
 a:focus,
@@ -14,14 +24,14 @@ html,
 body {
   height: 100%;
   background-color: #05122b;
-  -webkit-font-smoothing: antialiased;
+  /*-webkit-font-smoothing: antialiased;*/
   font-family: 'AeroExtended', sans-serif;
 }
 
 body {
   color: #05122b;
   text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  text-shadow: 0 1px 1px rgba(0,0,0,.5);
 }
 
 .center {
@@ -42,46 +52,70 @@ body {
     color: #fff;
 }
 
+#home > div.container {
+  width: 700px;
+  position: absolute;
+  left: 400px;
+  top: 400px;
+}
+
+#home > div.container h2 {
+  font-family: 'AeroExtendedItalic', sans-serif;
+}
+
+#home > div.container h3 {
+  font-family: 'WallStreetExtended', sans-serif;
+  width: 610px;
+  letter-spacing: 1px;
+  font-size: 12pt;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #lynx { 
     height: auto;  
     float: left;
-    margin: 0 auto; 
+    margin-top: 100px;
+    /*margin: 0 auto; */
     position: relative; 
     color: #fff;
 }
 
-.video-container { 
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-  width: 90%;
+#lynx > div.container h2 {
+  font-family: 'WallStreetExtended', sans-serif;
+  font-size: 15pt;
+  letter-spacing: 1px;
+}
+
+#lynx > div.container p {
+  width: 450px;
+  font-family: "Helvetica", sans-serif;
   margin-left: auto;
-  margin-right: auto; 
- }
-
-.video-container iframe { 
-  position: absolute; 
-  top: 0; 
-  left: 0;
-  width: 100%; 
-  height: 100%;
+  margin-right: auto;
 }
 
-/*#video {
-      wxidth="574" 
-      hexight="323" 
-}
-*/
 #stargazer { 
     background: url(/assets/section_background_03.png) no-repeat bottom; 
-    height: 500px;  
+    height: 500px; 
+    width: 10000px; 
     float: left;
     position: relative; 
     /*padding: 300 325px;*/
     color: #fff;
     bottom: 0;
+}
+
+#stargazer > div.container {
+  font-family: "Helvetica", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  text-align: left;
+}
+
+#footer {
+  background-color: #000;
+  color: #999;
 }
 
 .navbar {
@@ -101,6 +135,26 @@ body {
   position: relative;
   width: auto;
   color: #fff;
+}
+
+.video-container { 
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 50px;
+ }
+
+.video-container iframe { 
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 68%;
 }
 
 
