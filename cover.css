@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+
+a,
+a:focus,
+a:hover {
+  color: #000;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #05122b;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  color: #05122b;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+#home { 
+    background: url(/assets/section_background_01.png) no-repeat; 
+    width: 100%; 
+    padding: 370px 0;
+}
+
+#lynx { 
+    background: url(/assets/section_background_02.png) no-repeat fixed; 
+    height: auto;  
+    float: left;
+    margin: 0 auto; 
+    position: relative; 
+    padding: 270px 0;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    color: #fff;
+}
+
+#stargazer { 
+    background: url(/assets/section_background_03.png) no-repeat fixed; 
+    height: auto;  
+    float: left;
+    margin: 0 auto; 
+    position: relative; 
+    padding: 270px 0;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    color: #fff;
+}
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   width: auto;
+   left: 230px;
+   top: -350px;
+}
+
+.navbar .nav > li > a {
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: uppercase;
+  float: left;
+  display: inline-block;
+  position: relative;
+  width: auto;
+  color: #fff;
+}
+
+
