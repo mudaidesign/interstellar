@@ -42,18 +42,18 @@ body {
     float: left;
     margin: 0 auto; 
     position: relative; 
-    padding: 270px 0;
     color: #fff;
 }
 
 #stargazer { 
-    background: url(/assets/section_background_03.png) no-repeat fixed; 
+    background: url(/assets/section_background_03.png) no-repeat; 
     height: auto;  
     float: left;
     margin: 0 auto; 
     position: relative; 
-    padding: 270px 0;
+    padding: 370px 0;
     color: #fff;
+    bottom: 0;
 }
 
 .navbar {
