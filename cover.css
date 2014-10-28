@@ -1,4 +1,8 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@font-face {
+  font-family: 'AeroExtended';
+  src: url('/assets/aeroextended.eot');
+  src: url('/assets/aeroextended.ttf')  format('truetype');
+}
 
 a,
 a:focus,
@@ -11,7 +15,7 @@ body {
   height: 100%;
   background-color: #05122b;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'AeroExtended', sans-serif;
 }
 
 body {
@@ -20,20 +24,24 @@ body {
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
+#background { 
+    background: url(/assets/section_background_02.png) no-repeat fixed; 
+    height: auto;  
+    float: left;
+}
+
 #home { 
-    background: url(/assets/section_background_01.png) no-repeat; 
+    background: transparent url(/assets/section_background_01.png) no-repeat ; 
     width: 100%; 
     padding: 370px 0;
 }
 
 #lynx { 
-    background: url(/assets/section_background_02.png) no-repeat fixed; 
     height: auto;  
     float: left;
     margin: 0 auto; 
     position: relative; 
     padding: 270px 0;
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
     color: #fff;
 }
 
@@ -44,7 +52,6 @@ body {
     margin: 0 auto; 
     position: relative; 
     padding: 270px 0;
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
     color: #fff;
 }
 
