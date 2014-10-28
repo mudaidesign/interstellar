@@ -89,7 +89,7 @@ body {
 
 #lynx > div.container p {
   width: 450px;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Montserrat", serif;
   margin-left: auto;
   margin-right: auto;
 }
@@ -97,7 +97,7 @@ body {
 #stargazer { 
     background: url(/assets/section_background_03.png) no-repeat bottom; 
     height: 500px; 
-    width: 10000px; 
+    width: 1600px; 
     float: left;
     position: relative; 
     /*padding: 300 325px;*/
@@ -106,10 +106,10 @@ body {
 }
 
 #stargazer > div.container {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width: 1600px;
   text-align: left;
 }
 
