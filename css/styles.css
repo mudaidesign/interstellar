@@ -1,17 +1,22 @@
 @font-face {
   font-family: 'AeroExtended';
-  src: url('/fonts/aeroextended.eot');
-  src: url('/fonts/aeroextended.ttf')  format('truetype');
+  src: url('..//fonts/aeroextended.eot');
+  src: url('..//fonts/aeroextended.ttf')  format('truetype');
 }
 @font-face {
   font-family: 'AeroExtendedItalic';
-  src: url('/fonts/aeroextendeditalic.eot');
-  src: url('/fonts/aeroextendeditalic.ttf')  format('truetype');
+  src: url('..//fonts/aeroextendeditalic.eot');
+  src: url('..//fonts/aeroextendeditalic.ttf')  format('truetype');
 }
 @font-face {
   font-family: 'WallStreetExtended';
-  src: url('/fonts/wallstreetextended.eot');
-  src: url('/fonts/wallstreetextended.ttf')  format('truetype');
+  src: url('..//fonts/wallstreetextended.eot');
+  src: url('..//fonts/wallstreetextended.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'GothamThin';
+  src: url('..//fonts/gothamthin.eot');
+  src: url('..//fonts/gothamthin.ttf')  format('truetype');
 }
 
 a,
@@ -40,13 +45,13 @@ body {
 }
 
 #background { 
-    background: url(/assets/background.jpg) no-repeat fixed; 
+    background: url(../assets/background.jpg) no-repeat fixed; 
     height: auto;  
     float: left;
 }
 
 #home { 
-    background: transparent url(/assets/section_background_01.png) no-repeat ; 
+    background: transparent url(../assets/section_background_01.png) no-repeat ; 
     width: 100%; 
     padding: 370px 0;
     color: #fff;
@@ -73,7 +78,6 @@ body {
 }
 
 #lynx { 
-    height: auto;  
     float: left;
     margin-top: 100px;
     /*margin: 0 auto; */
@@ -88,34 +92,57 @@ body {
 }
 
 #lynx > div.container p {
-  width: 450px;
-  font-family: "Montserrat", serif;
+  width: 480px;
+  font-family: "GothamThin", sans-serif;
+  letter-spacing: 1px;
   margin-left: auto;
   margin-right: auto;
 }
 
 #stargazer { 
-    background: url(/assets/section_background_03.png) no-repeat bottom; 
-    height: 500px; 
-    width: 1600px; 
+    background: url(../assets/section_background_03.png) no-repeat bottom; 
+    height: 600px;
+    width: 1200px; 
     float: left;
     position: relative; 
-    /*padding: 300 325px;*/
     color: #fff;
     bottom: 0;
 }
 
 #stargazer > div.container {
-  font-family: "Montserrat", sans-serif;
+  font-family: "GothamThin", sans-serif;
+  letter-spacing: 1px;
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
+  width: 800px;
   text-align: left;
 }
 
+#stargazer > div.container p {
+  margin-top: 50px;
+  width: 700px;
+  font-family: "GothamThin", sans-serif;
+  letter-spacing: 1px;
+  font-size: 15pt;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input_field {
+  color: #aaa;
+  width: 800px;
+  font-size: 40px;
+  border: 0px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  background-color: transparent;
+}
+
 #footer {
+  font-family: "GothamThin", sans-serif;
+  font-size: 8pt;
   background-color: #000;
   color: #999;
+  width: 1200px;
 }
 
 .navbar {
