@@ -1,3 +1,10 @@
+function processEmail(obj) {
+	var $emailAddress = $("input[name=email]").val();
+	alert($emailAddress);
+	if ($emailAddress == "" || $emailAddress == "astronaut@example.com") {
+	}
+}
+
 $(document).ready(function(){
    $window = $(window);
  
@@ -13,15 +20,3 @@ $(document).ready(function(){
 });
 
 document.createElement("section");
-
-function clear(obj)
-    {
-	    var clear = true;
-
-    	alert('hi');
-        if(clear)
-        {
-            obj.value = '';
-            clear = false;
-        }
-    }

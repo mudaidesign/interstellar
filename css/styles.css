@@ -24,7 +24,58 @@ body {
   height: 100%;
   background-color: #05122b;
   /*-webkit-font-smoothing: antialiased;*/
+}
+
+/* fonts */
+h1 {
+  font-family: 'AeroExtendedItalic', sans-serif;
+  font-size: 22pt;
+}
+
+h2 {
+  font-family: 'WallStreetExtended', sans-serif;
+  font-size: 18pt;
+  letter-spacing: 2px;
+}
+
+.navigation {
   font-family: 'AeroExtended', sans-serif;
+}
+
+.intro {
+  font-family: 'WallStreetExtended', sans-serif;
+  letter-spacing: 1px;
+  font-size: 10pt;
+  line-height: 1.25;
+}
+
+.content {
+  font-family: "GothamThin", sans-serif;
+  letter-spacing: 1px;
+  font-size: 12pt;
+}
+
+.input_field {
+  font-family: "GothamThin", sans-serif;
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+
+.input_text {
+  font-family: "GothamThin", sans-serif;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+
+.tagline {
+  font-family: 'AeroExtendedItalic', sans-serif;
+  font-size: 14pt;
+}
+
+.footer {
+  font-family: "GothamThin", sans-serif;
+  letter-spacing: 1px;
+  font-size: 10px;
 }
 
 body {
@@ -58,17 +109,11 @@ body {
   top: 100px;
 }
 
-#home > div.container h2 {
-  font-family: 'AeroExtendedItalic', sans-serif;
-}
-
-#home > div.container h3 {
-  font-family: 'WallStreetExtended', sans-serif;
-  width: 610px;
-  letter-spacing: 1px;
-  font-size: 12pt;
+#home > div.container .intro {
+  width: 520px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
 #lynx { 
@@ -80,15 +125,10 @@ body {
 }
 
 #lynx > div.container h2 {
-  font-family: 'WallStreetExtended', sans-serif;
-  font-size: 15pt;
-  letter-spacing: 1px;
 }
 
 #lynx > div.container p {
-  width: 480px;
-  font-family: "GothamThin", sans-serif;
-  letter-spacing: 1px;
+  width: 650px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -104,8 +144,6 @@ body {
 }
 
 #stargazer > div.container {
-  font-family: "GothamThin", sans-serif;
-  letter-spacing: 1px;
   margin-left: auto;
   margin-right: auto;
   width: 800px;
@@ -113,19 +151,21 @@ body {
 }
 
 #stargazer > div.container p {
-  margin-top: 50px;
-  width: 700px;
-  font-family: "GothamThin", sans-serif;
-  letter-spacing: 1px;
-  font-size: 15pt;
+  margin-top: 40px;
+  width: 800px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#stargazer > div.container > img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
 }
 
 .input_field {
   color: #aaa;
   width: 700px;
-  font-size: 40px;
   border: 0px solid #aaa;
   border-bottom: 1px solid #aaa;
   background-color: transparent;
@@ -148,8 +188,6 @@ input#submit{
 }
 
 #footer {
-  font-family: "GothamThin", sans-serif;
-  font-size: 8pt;
   background-color: #000;
   color: #999;
   width: 1200px;
@@ -157,16 +195,11 @@ input#submit{
 }
 
 #footer div.container a {
-  font-family: "GothamThin", sans-serif;
-  font-size: 8pt;
-  /*background-color: #000;*/
   color: #999;
   width: 150px;
   position: relative;
   float: left;
   display: inline-block;
-  /*text-align: left;*/
-  /*display: block;*/
 }
 
 .navbar {
