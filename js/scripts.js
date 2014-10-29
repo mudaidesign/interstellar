@@ -13,3 +13,15 @@ $(document).ready(function(){
 });
 
 document.createElement("section");
+
+function clear(obj)
+    {
+	    var clear = true;
+
+    	alert('hi');
+        if(clear)
+        {
+            obj.value = '';
+            clear = false;
+        }
+    }
