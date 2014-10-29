@@ -82,9 +82,8 @@ h2 {
   font-size: 14pt;
 }
 
-.footer {
-  font-family: "GothamThin", sans-serif;
-  letter-spacing: 1px;
+.footer_item {
+  font-family: "Arial", sans-serif;
   font-size: 10px;
 }
 
@@ -108,11 +107,11 @@ body {
     background: url(../assets/background.jpg) no-repeat fixed; 
     height: auto;  
     float: left;
+    width: 100%;
 }
 
 #home { 
     background: transparent url(../assets/section_background_01.png) no-repeat ; 
-    width: 100%; 
     padding: 370px 0;
     color: #fff;
 }
@@ -143,6 +142,7 @@ body {
     margin-top: 100px;
     position: relative; 
     color: #fff;
+    width: 1200px;
     height: 700px;
 }
 
@@ -157,7 +157,7 @@ body {
 
 #stargazer { 
     background: url(../assets/section_background_03.png) no-repeat bottom; 
-    height: 730px;
+    height: 630px;
     width: 1200px; 
     float: left;
     position: relative; 
@@ -170,12 +170,13 @@ body {
 }
 
 #stargazer > div.container p {
-  margin-top: 40px;
   width: 800px;
 }
 
 #stargazer > div.container > img {
   width: 120px;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
 
 #stargazer .input_text {
@@ -200,39 +201,61 @@ input {
   display: inline-block;
 }
 
-input#submit{
+#thank_you_text {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+#submit{
   background:url(../assets/arrow_right.png);
   background-repeat: no-repeat;
   border: 0px solid #aaa;
   border-bottom: 1px solid #aaa;
-  top: 17px;
+  top: 21px;
   left: -5px;
   width:60px;
   height:60px;
+  display: inline-block;
+  position: relative;
 }
 
 #footer {
   background-color: #000;
   color: #999;
-  width: 1200px;
+  width: 100%;
   text-align: left;
+  padding-top: 25px;
 }
 
-#footer div.container a {
+.footer_item span {
   color: #999;
-  width: 150px;
-  position: relative;
+  width: auto;
+  padding-right: 40px;
   float: left;
-  display: inline-block;
 }
 
+.footer_item span a {
+  text-decoration: none;
+  color: #999;
+}
+
+.footer_paragraph {
+  float: left;
+  padding-top: 30px;
+  width: 800px;
+}
+/*.footer_item > span a {
+  color: #999;
+}
+*/
 .navbar {
   background-color: transparent;
   background: transparent;
   width: auto;
-  position: relative;
-  left: 230px;
-  top: -350px;
+  position: absolute;
+  left: 400px;
+  top: 20px;
 }
 
 .navbar .nav > li > a {

@@ -62,12 +62,14 @@
 
     <section id="stargazer">
         <div class="container">
-          <span class="input_text"><strong>Take the first step</strong></span>
-          <form onsubmit="processEmail(this)">
-            <input id="email" class="input_field" name="email" value="astronaut@example.com" onfocus="this.value=''" onchange="" )>
-            <input type="submit" id="submit" value="" alt="submit" >
-          </form>
-          <p class="input_text">You have added your name to a list of courageous individuals that will change the world. The future of humanity depends on a new generation of explorers like you. We will keep you updated with new developments and progress towards our first commercial launch</p>
+          <div id="thank_you_text"><p class="input_text">You have added your name to a list of courageous individuals that will change the world. The future of humanity depends on a new generation of explorers like you. We will keep you updated with new developments and progress towards our first commercial launch</p></div>
+          <div id="email_entry">
+            <span id="email_entry" class="input_text"><strong>Take the first step</strong></span>
+            <form onsubmit="processEmail(this)">
+              <input id="email" class="input_field" name="email" value="astronaut@example.com" onfocus="this.value=''" onchange="" )>
+              <div id="submit"></div>
+            </form>
+          </div>
           <img class="center" src="assets/logo_xcor.png" alt="XCOR Logo"/>
           <p class="tagline center">WE'VE GOT SPACE FOR YOU</p>
         </div>
@@ -77,12 +79,12 @@
 
   <section id="footer">
     <div class="container">
-      <span>
-        <p class="footer">Copyright 2014 &copy; XCOR</p>
-        <p class="footer"><a href="">Privacy Policy</a></p>
-        <p class="footer"><a href="">Terms and Conditions</a></p>
+      <span class="footer_item">
+        <span>Copyright 2014 &copy; XCOR</span>
+        <span><a href="">Privacy Policy</a></span>
+        <span><a href="">Terms and Conditions</a></span>
       </span>
-      <p class="footer">Lata menatiq uemquius move, cotis uspicie naturalis consi, es buoure ribuono tem is; no. Scoiopioe nos viderbis re tinte con nos con noribis C mor quiacm patrtem quit C fultiui fuirhiciai et non Italiteu inatuem nor hos inproaar nese es consiuils.</p>
+      <p class="footer_item footer_paragraph">Lata menatiq uemquius move, cotis uspicie naturalis consi, es buoure ribuono tem is; no. Scoiopioe nos viderbis re tinte con nos con noribis C mor quiacm patrtem quit C fultiui fuirhiciai et non Italiteu inatuem nor hos inproaar nese es consiuils.</p>
     </div>
   </section>
 

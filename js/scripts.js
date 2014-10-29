@@ -14,9 +14,11 @@ $(document).ready(function(){
 
 document.createElement("section");
 
-function processEmail(obj) {
-	var $emailAddress = $("input[name=email]").val();
-	alert($emailAddress);
-	if ($emailAddress == "" || $emailAddress == "astronaut@example.com") {
-	}
-}
+$( "#submit" ).click(function() {
+  $( "#email_entry" ).fadeTo( "slow" , 0.0, function() {
+	  $( "#thank_you_text" ).fadeTo( "slow" , 1.0, function() {
+		var $emailAddress = $("input[name=email]").val();
+		// alert($emailAddress);
+	  });
+  });
+});
