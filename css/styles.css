@@ -19,13 +19,6 @@
   src: url('..//fonts/gothamthin.ttf')  format('truetype');
 }
 
-html,
-body {
-  height: 100%;
-  background-color: #05122b;
-  /*-webkit-font-smoothing: antialiased;*/
-}
-
 /* fonts */
 h1 {
   font-family: 'AeroExtendedItalic', sans-serif;
@@ -46,13 +39,30 @@ h2 {
   font-family: 'WallStreetExtended', sans-serif;
   letter-spacing: 1px;
   font-size: 10pt;
-  line-height: 1.25;
 }
 
 .content {
   font-family: "GothamThin", sans-serif;
   letter-spacing: 1px;
   font-size: 12pt;
+}
+
+.detail_info_small {
+  font-family: "GothamThin", sans-serif;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
+.detail_info {
+  font-family: "GothamThin", sans-serif;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.detail_info_large {
+  font-family: "GothamThin", sans-serif;
+  letter-spacing: 1px;
+  font-size: 18px;
 }
 
 .input_field {
@@ -78,15 +88,20 @@ h2 {
   font-size: 10px;
 }
 
+html,
 body {
-  color: #05122b;
-  text-align: center;
+  height: 100%;
+  background-color: #05122b;
   text-shadow: 0 1px 1px rgba(0,0,0,.5);
+  text-decoration: none;
+  color: #fff;
 }
 
 .center {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    display: block;
 }
 
 #background { 
@@ -109,33 +124,40 @@ body {
   top: 100px;
 }
 
+#home > div.container p {
+  line-height: 0.5;
+}
+
 #home > div.container .intro {
-  width: 520px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 570px;
   margin-bottom: 40px;
+  line-height: 1.25;
+}
+
+#home a .link:hover {
+  opacity: 0.5;
 }
 
 #lynx { 
     float: left;
     margin-top: 100px;
-    /*margin: 0 auto; */
     position: relative; 
     color: #fff;
+    height: 700px;
 }
 
-#lynx > div.container h2 {
+#lynx a {
+  text-decoration: none;
+  color: #fff
 }
 
 #lynx > div.container p {
   width: 650px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #stargazer { 
     background: url(../assets/section_background_03.png) no-repeat bottom; 
-    height: 600px;
+    height: 730px;
     width: 1200px; 
     float: left;
     position: relative; 
@@ -144,23 +166,25 @@ body {
 }
 
 #stargazer > div.container {
-  margin-left: auto;
-  margin-right: auto;
   width: 800px;
-  text-align: left;
 }
 
 #stargazer > div.container p {
   margin-top: 40px;
   width: 800px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #stargazer > div.container > img {
-  margin-left: auto;
-  margin-right: auto;
   width: 120px;
+}
+
+#stargazer .input_text {
+  text-align: left;
+}
+
+#stargazer.container.content {
+  left:0;
+  text-align: left;
 }
 
 .input_field {
@@ -234,8 +258,6 @@ input#submit{
   height: 0;
   overflow: hidden;
   width: 70%;
-  margin-left: auto;
-  margin-right: auto; 
   margin-top: 50px;
  }
 
