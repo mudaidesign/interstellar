@@ -19,12 +19,6 @@
   src: url('..//fonts/gothamthin.ttf')  format('truetype');
 }
 
-a,
-a:focus,
-a:hover {
-  color: #000;
-}
-
 html,
 body {
   height: 100%;
@@ -58,10 +52,10 @@ body {
 }
 
 #home > div.container {
-  width: 700px;
+  width: 800px;
   position: absolute;
-  left: 400px;
-  top: 400px;
+  left: 370px;
+  top: 100px;
 }
 
 #home > div.container h2 {
@@ -130,11 +124,27 @@ body {
 
 .input_field {
   color: #aaa;
-  width: 800px;
+  width: 700px;
   font-size: 40px;
   border: 0px solid #aaa;
   border-bottom: 1px solid #aaa;
   background-color: transparent;
+}
+
+input {
+  position: relative;
+  display: inline-block;
+}
+
+input#submit{
+  background:url(../assets/arrow_right.png);
+  background-repeat: no-repeat;
+  border: 0px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  top: 17px;
+  left: -5px;
+  width:60px;
+  height:60px;
 }
 
 #footer {
@@ -177,6 +187,11 @@ body {
   position: relative;
   width: auto;
   color: #fff;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: transparent;
+  color: #ddd;
 }
 
 .video-container { 
