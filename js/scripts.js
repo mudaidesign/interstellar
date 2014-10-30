@@ -11,13 +11,13 @@ $(document).ready(function(){
 
 document.createElement("section");
 
-$( "#email_form" ).submit(function( event ) {
+$("#email_form").submit(function( event ) {
 	event.preventDefault();
 	var $emailAddress = $("input[name=email]").val();
-	$.post('foo.html',$emailAddress,function(data,status) {
-	    alert("Data: " + data + "\nStatus: " + status);
-	});
 	if ($emailAddress != 'myname@example.com' && $emailAddress != '') {
+		$.post('foo.html',$emailAddress,function(data,status) {
+		    alert("Data: " + data + "\nStatus: " + status);
+		});
 		$( "#form_elements" ).fadeTo( "slow" , 0.0, function() {
 			$( "#thank_you_text" ).fadeTo( "slow" , 1.0, function() {				
 			// alert($emailAddress);
@@ -26,6 +26,10 @@ $( "#email_form" ).submit(function( event ) {
 	}
 });
 
-$( "#submit" ).click(function() {
+$("#email").focus(function() {
+	this.value='';
+});
+
+$("#submit").click(function() {
 	$("#email_form").submit();
 });
