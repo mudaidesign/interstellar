@@ -17,7 +17,7 @@
 /* fonts */
 h1 {
   font-family: 'AeroExtendedItalic', sans-serif;
-  font-size: 22pt;
+  font-size: 18pt;
   font-weight: normal;
 }
 
@@ -34,38 +34,40 @@ h2 {
 }
 
 .intro {
-  font-family: 'WallStreetExtended', sans-serif;
-  letter-spacing: 1px;
-  font-size: 10pt;
-  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  line-height: 1.5em;
+  font-weight: 300;
 }
 
 .content {
-  font-family: 'Open Sans', sans-serif
-  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
-  font-weight: normal;
+  font-weight: 300;
 }
+
 .input_field {
-  font-family: 'Open Sans', sans-serif
-  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
   font-size: 40px;
+  font-weight: 300;
 }
 
 .input_text {
-  font-family: 'Open Sans', sans-serif
-  letter-spacing: 1px;
+  font-family: 'Open Sans', sans-serif;
   font-size: 22px;
+  font-weight: 300;
 }
 
 .tagline {
   font-family: 'AeroExtendedItalic', sans-serif;
   font-size: 14pt;
+  font-weight: normal;
 }
 
 .tiny_text {
   font-family: "Arial", sans-serif;
   font-size: 10px;
+  font-weight: normal;
 }
 
 html,
@@ -111,14 +113,9 @@ body {
   top: 100px;
 }
 
-#home > div.container p {
-  line-height: 0.5;
-}
-
 #home > div.container .intro {
-  width: 570px;
+  width: 370px;
   margin-bottom: 40px;
-  line-height: 1.25;
 }
 
 #home a .link:hover {
@@ -244,7 +241,7 @@ input {
   background: transparent;
   width: auto;
   position: absolute;
-  left: 400px;
+  left: 425px;
   top: 20px;
 }
 
