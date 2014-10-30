@@ -13,11 +13,6 @@
   src: url('..//fonts/wallstreetextended.eot');
   src: url('..//fonts/wallstreetextended.ttf')  format('truetype');
 }
-@font-face {
-  font-family: 'GothamThin';
-  src: url('..//fonts/gothamthin.eot');
-  src: url('..//fonts/gothamthin.ttf')  format('truetype');
-}
 
 /* fonts */
 h1 {
@@ -42,37 +37,37 @@ h2 {
 }
 
 .content {
-  font-family: "GothamThin", sans-serif;
+  font-family: 'Open Sans', sans-serif
   letter-spacing: 1px;
   font-size: 12pt;
 }
 
 .detail_info_small {
-  font-family: "GothamThin", sans-serif;
+  font-family: 'Open Sans', sans-serif
   letter-spacing: 1px;
   font-size: 12px;
 }
 
 .detail_info {
-  font-family: "GothamThin", sans-serif;
+  font-family: 'Open Sans', sans-serif
   letter-spacing: 1px;
   font-size: 14px;
 }
 
 .detail_info_large {
-  font-family: "GothamThin", sans-serif;
+  font-family: 'Open Sans', sans-serif
   letter-spacing: 1px;
   font-size: 18px;
 }
 
 .input_field {
-  font-family: "GothamThin", sans-serif;
+  font-family: 'Open Sans', sans-serif
   letter-spacing: 1px;
   font-size: 40px;
 }
 
 .input_text {
-  font-family: "GothamThin", sans-serif;
+  font-family: 'Open Sans', sans-serif
   letter-spacing: 1px;
   font-size: 22px;
 }
@@ -100,6 +95,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    display: block;
+}
+
+.right {
+    float: right;
     display: block;
 }
 
@@ -241,10 +241,6 @@ input {
   float: left;
 }
 
-.footer_item span a {
-  text-decoration: none;
-  color: #999;
-}
 
 .footer_paragraph {
   float: left;
