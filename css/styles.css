@@ -115,6 +115,7 @@ body {
     background: transparent url(../assets/section_background_01.png) no-repeat ; 
     padding: 370px 0;
     color: #fff;
+    height: 854px;
 }
 
 #home > div.container {
@@ -140,7 +141,7 @@ body {
 
 #lynx { 
     float: left;
-    margin-top: 100px;
+    margin-top: 0px;
     position: relative; 
     color: #fff;
     width: 1200px;
