@@ -243,10 +243,10 @@ input {
 }
 
 
-.footer_paragraph {
-  float: left;
-  padding-top: 30px;
-  width: 800px;
+#footer img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 100px;
 }
 
 .footer_item > span a {
