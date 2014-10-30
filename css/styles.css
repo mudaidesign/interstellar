@@ -33,29 +33,26 @@ h2 {
   font-weight: normal;
 }
 
-.intro {
+.content {
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
   line-height: 1.5em;
   font-weight: 300;
+  opacity: 0.8;
 }
 
-.content {
+.input_header {
   font-family: 'Open Sans', sans-serif;
-  font-size: 12pt;
+  font-size: 10pt;
   font-weight: 300;
-}
-
-.input_field {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
-  font-weight: 300;
+  opacity: 0.8;
 }
 
 .input_text {
   font-family: 'Open Sans', sans-serif;
-  font-size: 22px;
+  font-size: 40px;
   font-weight: 300;
+  opacity: 0.4;
 }
 
 .tagline {
@@ -113,7 +110,7 @@ body {
   top: 100px;
 }
 
-#home > div.container .intro {
+#home > div.container .content {
   width: 370px;
   margin-bottom: 40px;
 }
@@ -143,7 +140,7 @@ body {
 }
 
 #lynx > div.container p {
-  width: 650px;
+  width: 450px;
 }
 
 #stargazer { 
@@ -151,69 +148,60 @@ body {
     height: 630px;
     width: 1200px; 
     float: left;
-    position: relative; 
     color: #fff;
     bottom: 0;
 }
 
-#stargazer > div.container {
-  width: 800px;
-}
-
-#stargazer > div.container p {
-  width: 800px;
-}
-
 #stargazer > div.container > img {
   width: 120px;
-  margin-top: 80px;
+  margin-top: 200px;
   margin-bottom: 40px;
 }
 
-#stargazer .input_text {
-  text-align: left;
-}
-
-#stargazer.container.content {
-  left:0;
-  text-align: left;
-}
-
-.input_field {
-  color: #aaa;
+#stargazer > div.container > div#email_entry_block {
   width: 700px;
-  border: 0px solid #aaa;
-  border-bottom: 1px solid #aaa;
+  float: right;
+  left: 250px;
+  position: absolute;
+}
+
+#stargazer .input_field {
+  width: 640px;
+  border: 0px solid #fff;
+  border-bottom: 1px solid #fff;
   background-color: transparent;
 }
 
-input {
+#stargazer #email_entry_block .form_text {
+  padding-top: 20px;
+  width: 600px;
+}
+
+#stargazer input {
   position: relative;
   display: inline-block;
 }
 
-#thank_you_text {
-  position: absolute;
-  top: 0px;
+#stargazer > div.container > div#thank_you_text {
+  width: 700px;
+  left: 225px;
+  top: 95px;
+  position: relative;
   opacity: 0;
 }
 
-#submit{
+#stargazer #submit{
   background:url(../assets/arrow_right.png);
   background-repeat: no-repeat;
   border: 0px solid #aaa;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #fff;
   top: 0px;
   width: 60px;
   height: 60px;
   display: block;
   position: relative;
   float: right;
-}
-
-#form_elements {
-  height: 60px;
-  width: 760px;
+  opacity: 0.4;
 }
 
 #footer {

@@ -11,8 +11,13 @@ $(document).ready(function(){
 
 document.createElement("section");
 
+$( "#email_form" ).submit(function( event ) {
+	event.preventDefault();
+	$("#submit").click();
+});
+
 $( "#submit" ).click(function() {
-  $( "#email_entry" ).fadeTo( "slow" , 0.0, function() {
+  $( "#form_elements" ).fadeTo( "slow" , 0.0, function() {
 	  $( "#thank_you_text" ).fadeTo( "slow" , 1.0, function() {
 		var $emailAddress = $("input[name=email]").val();
 		// alert($emailAddress);
