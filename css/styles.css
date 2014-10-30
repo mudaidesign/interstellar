@@ -104,10 +104,11 @@ body {
 }
 
 #background { 
-    background: url(../assets/background.jpg) no-repeat fixed; 
-    height: auto;  
-    float: left;
-    width: 100%;
+  background: url(../assets/background.jpg) no-repeat fixed; 
+  height: auto;  
+  float: left;
+  width: 100%;
+  background-color: #05122b;
 }
 
 #home { 
@@ -212,12 +213,17 @@ input {
   background-repeat: no-repeat;
   border: 0px solid #aaa;
   border-bottom: 1px solid #aaa;
-  top: 21px;
-  left: -5px;
-  width:60px;
-  height:60px;
-  display: inline-block;
+  top: 0px;
+  width: 60px;
+  height: 60px;
+  display: block;
   position: relative;
+  float: right;
+}
+
+#form_elements {
+  height: 60px;
+  width: 760px;
 }
 
 #footer {
