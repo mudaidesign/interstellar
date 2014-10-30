@@ -170,6 +170,7 @@ body {
   border: 0px solid #fff;
   border-bottom: 1px solid #fff;
   background-color: transparent;
+  outline: none;
 }
 
 #stargazer #email_entry_block .form_text {
