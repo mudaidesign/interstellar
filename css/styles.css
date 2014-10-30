@@ -125,6 +125,11 @@ body {
   opacity: 0.5;
 }
 
+#home .dateblock
+{
+  width: 50%;
+}
+
 #lynx { 
     float: left;
     margin-top: 0px;
