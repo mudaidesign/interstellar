@@ -248,10 +248,11 @@ input {
   padding-top: 30px;
   width: 800px;
 }
-/*.footer_item > span a {
+
+.footer_item > span a {
   color: #999;
 }
-*/
+
 .navbar {
   background-color: transparent;
   background: transparent;
