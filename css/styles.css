@@ -18,48 +18,34 @@
 h1 {
   font-family: 'AeroExtendedItalic', sans-serif;
   font-size: 22pt;
+  font-weight: normal;
 }
 
 h2 {
   font-family: 'WallStreetExtended', sans-serif;
   font-size: 18pt;
   letter-spacing: 2px;
+  font-weight: normal;
 }
 
 .navigation {
   font-family: 'AeroExtended', sans-serif;
+  font-weight: normal;
 }
 
 .intro {
   font-family: 'WallStreetExtended', sans-serif;
   letter-spacing: 1px;
   font-size: 10pt;
+  font-weight: normal;
 }
 
 .content {
   font-family: 'Open Sans', sans-serif
   letter-spacing: 1px;
   font-size: 12pt;
+  font-weight: normal;
 }
-
-.detail_info_small {
-  font-family: 'Open Sans', sans-serif
-  letter-spacing: 1px;
-  font-size: 12px;
-}
-
-.detail_info {
-  font-family: 'Open Sans', sans-serif
-  letter-spacing: 1px;
-  font-size: 14px;
-}
-
-.detail_info_large {
-  font-family: 'Open Sans', sans-serif
-  letter-spacing: 1px;
-  font-size: 18px;
-}
-
 .input_field {
   font-family: 'Open Sans', sans-serif
   letter-spacing: 1px;
@@ -238,7 +224,7 @@ input {
 #footer img {
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 70px;
+  padding-left: 330px;
   height: 100px;
 }
 
