@@ -1,30 +1,18 @@
 @font-face {
   font-family: 'AeroExtended';
-  src: url('..//fonts/aeroextended.eot');
-  src: url('..//fonts/aeroextended.ttf')  format('truetype');
+  src: url('../fonts/aeroextended.eot');
+  src: url('../fonts/aeroextended.ttf')  format('truetype');
 }
 @font-face {
   font-family: 'AeroExtendedItalic';
-  src: url('..//fonts/aeroextendeditalic.eot');
-  src: url('..//fonts/aeroextendeditalic.ttf')  format('truetype');
-}
-@font-face {
-  font-family: 'WallStreetExtended';
-  src: url('..//fonts/wallstreetextended.eot');
-  src: url('..//fonts/wallstreetextended.ttf')  format('truetype');
+  src: url('../fonts/aeroextendeditalic.eot');
+  src: url('../fonts/aeroextendeditalic.ttf')  format('truetype');
 }
 
 /* fonts */
 h1 {
   font-family: 'AeroExtendedItalic', sans-serif;
   font-size: 18pt;
-  font-weight: normal;
-}
-
-h2 {
-  font-family: 'WallStreetExtended', sans-serif;
-  font-size: 18pt;
-  letter-spacing: 2px;
   font-weight: normal;
 }
 
