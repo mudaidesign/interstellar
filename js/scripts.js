@@ -1,17 +1,14 @@
 $(document).ready(function(){
-	var mq = window.matchMedia('@media all and (max-width: 600px)');
-	if(mq.matches) {
-	    alert('big')
-	} else {
-	    alert('small')
-	}
+	var mq = window.matchMedia('(min-width: 600px)');
 	$window = $(window);
 	$scroll = $("#background");
-	                 
+
 	$(window).scroll(function() {
-		var yPos = -($window.scrollTop() / 2); 
-		var coords = '0 '+ yPos + 'px';
-		$scroll.css({ backgroundPosition: coords });
+		if (mq.matches) {
+			var yPos = -($window.scrollTop() / 2); 
+			var coords = '0 '+ yPos + 'px';
+			$scroll.css({ backgroundPosition: coords });
+		}
 	});
 });
 
