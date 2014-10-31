@@ -15,7 +15,7 @@ $("#email_form").submit(function( event ) {
 	event.preventDefault();
 	var $emailAddress = $("input[name=email]").val();
 	if ($emailAddress != 'myname@example.com' && $emailAddress != '') {
-		$.post('foo.html',$emailAddress,function(data,status) {
+		$.post('../subscribe.php',$emailAddress,function(data,status) {
 		    alert("Data: " + data + "\nStatus: " + status);
 		});
 		$( "#form_elements" ).fadeTo( "slow" , 0.0, function() {

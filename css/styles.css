@@ -91,35 +91,51 @@ body {
 @media (min-width: 600px) {
   #background { 
     background: url(../assets/background.jpg) no-repeat fixed; 
-    height: auto;  
-    float: left;
-    width: 100%;
-    background-color: #05122b;
+  }
+  #home { 
+    background: transparent url(../assets/section_background_01.png) no-repeat ; 
+  }
+  #home > div.container {
+    left: 370px;
+    width: 800px;
+
   }
 }
 
 @media (max-width: 600px) {
   #background { 
-    height: auto;  
-    float: left;
+  }
+  #home { 
+    background: url(../assets/section_background_01_mobile.jpeg) no-repeat ; 
     width: 100%;
-    background-color: #05122b;
+  }
+  .navbar {
+    visibility: hidden;
+  }
+  #home img {
+    visibility: hidden;
+  }
+  #home > div.container {
+    left: 0px;
+    /*width: 600px;*/
   }
 }
 
-
+#background {
+    float: left;
+    width: 100%;
+    background-color: #05122b;  
+    height: auto;  
+}
 
 #home { 
-    background: transparent url(../assets/section_background_01.png) no-repeat ; 
     padding: 370px 0;
     color: #fff;
     height: 854px;
 }
 
 #home > div.container {
-  width: 800px;
   position: absolute;
-  left: 370px;
   top: 100px;
 }
 
@@ -154,6 +170,10 @@ body {
 
 #lynx > div.container p {
   width: 450px;
+}
+
+#lynx > div.container p a:hover {
+  text-decoration: underline;
 }
 
 #stargazer { 
