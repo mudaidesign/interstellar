@@ -93,7 +93,8 @@ body {
     background: url(../assets/background.jpg) no-repeat fixed; 
   }
   #home { 
-    background: transparent url(../assets/section_background_01.png) no-repeat ; 
+    background: transparent url(../assets/section_background_01.png) no-repeat ;
+    height: 854px; 
   }
   #home > div.container {
     left: 370px;

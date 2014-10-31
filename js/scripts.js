@@ -14,13 +14,18 @@ document.createElement("section");
 $("#email_form").submit(function( event ) {
 	event.preventDefault();
 	var $emailAddress = $("input[name=email]").val();
+
 	if ($emailAddress != 'myname@example.com' && $emailAddress != '') {
-		$.post('../subscribe.php',$emailAddress,function(data,status) {
-		    alert("Data: " + data + "\nStatus: " + status);
+		$.ajax({
+		    url: '//xcor.us9.list-manage.com/subscribe/post?u=8fcc4d89f8aaa026be4e6f152&amp;id=0b59215714',
+		    data: {EMAIL: $emailAddress, u: '8fcc4d89f8aaa026be4e6f152', id: '0b59215714'},
+		    type: 'POST',
+		    dataType: 'jsonp',
+		    success: function() { },
+		    error: function() { }
 		});
 		$( "#form_elements" ).fadeTo( "slow" , 0.0, function() {
 			$( "#thank_you_text" ).fadeTo( "slow" , 1.0, function() {				
-			// alert($emailAddress);
 			});
 		});
 	}
