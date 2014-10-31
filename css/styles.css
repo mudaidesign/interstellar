@@ -229,6 +229,10 @@ body {
   text-decoration: underline;
 }
 
+#lynx > div.container p a:hover {
+  color: #aaa;
+}
+
 #stargazer { 
     float: left;
     color: #fff;
