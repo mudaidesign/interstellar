@@ -67,13 +67,18 @@ h2 {
   font-weight: normal;
 }
 
+input {
+    -webkit-appearance: none;
+    -webkit-border-radius:0; 
+    border-radius:0;
+}
+
 html,
 body {
   height: 100%;
-  background-color: #05122b;
+  background-color: #05122b;  
   text-shadow: 0 1px 1px rgba(0,0,0,.5);
   text-decoration: none;
-  color: #fff;
 }
 
 .center {
@@ -90,9 +95,11 @@ body {
 
 @media (min-width: 600px) {
   #background { 
-    background: url(../assets/background.jpg) no-repeat fixed; 
+    background: url(../assets/background.jpg) no-repeat fixed;
+    width: 1200px; 
   }
-  #home { 
+  #home {
+    width: 1200px;
     background: transparent url(../assets/section_background_01.png) no-repeat ;
     height: 854px; 
   }
@@ -131,10 +138,13 @@ body {
 
 @media (max-width: 600px) {
   #background { 
+    background: none;
+    width: 600px; 
   }
   #home { 
     background: url(../assets/section_background_01_mobile.jpeg) no-repeat ; 
     width: 600px; 
+    height: 450px;
   }
   .navbar {
     visibility: hidden;
@@ -179,7 +189,6 @@ body {
 
 #background {
     float: left;
-    width: 100%;
     background-color: #05122b;  
     height: auto;  
 }
@@ -227,6 +236,7 @@ body {
 
 #lynx > div.container p a {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 #lynx > div.container p a:hover {
@@ -256,6 +266,7 @@ body {
   border-bottom: 1px solid #fff;
   background-color: transparent;
   outline: none;
+  height: 60px;
 }
 
 #stargazer #email_entry_block .form_text {
@@ -293,6 +304,7 @@ body {
   background-color: #000;
   color: #999;
   text-align: left;
+  float: left;
   padding-top: 25px;
 }
 
