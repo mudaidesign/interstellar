@@ -1,4 +1,10 @@
 $(document).ready(function(){
+	var mq = window.matchMedia('@media all and (max-width: 600px)');
+	if(mq.matches) {
+	    alert('big')
+	} else {
+	    alert('small')
+	}
 	$window = $(window);
 	$scroll = $("#background");
 	                 

@@ -75,7 +75,6 @@ input {
 
 html,
 body {
-  height: 100%;
   background-color: #05122b;  
   text-shadow: 0 1px 1px rgba(0,0,0,.5);
   text-decoration: none;
@@ -94,6 +93,9 @@ body {
 }
 
 @media (min-width: 600px) {
+  html,body {
+    width: 1200px;
+  }
   #background { 
     background: url(../assets/background.jpg) no-repeat fixed;
     width: 1200px; 
@@ -103,10 +105,14 @@ body {
     background: transparent url(../assets/section_background_01.png) no-repeat ;
     height: 854px; 
   }
+  .navbar-inner div.container {
+    width: 700px;
+  }
   #home > div.container {
     left: 370px;
     width: 800px;
     height: 854px;
+    top:100px;
   }
 
   #stargazer { 
@@ -128,8 +134,12 @@ body {
   #stargazer #email_entry_block .form_text {
     width: 600px;
   }
+  #stargazer > div.container > div#thank_you_text {
+    width: 600px;
+    left: 200px;
+  }
   #footer {
-    width: 100%;
+    width: 1200px;
   }
   #footer img {
     padding-left: 330px;
@@ -137,6 +147,9 @@ body {
 }
 
 @media (max-width: 600px) {
+  html,body {
+    width: 600px;
+  }
   #background { 
     background: none;
     width: 600px; 
@@ -149,13 +162,18 @@ body {
   .navbar {
     visibility: hidden;
   }
+  .navbar-inner div.container {
+    width: 0px;
+  }
   #home img {
+    width: 0px;
     visibility: hidden;
   }
   #home > div.container {
     left: 0px;
     width: 600px;
     height: 854px;
+    top:450px;
   }
   #stargazer { 
     background: url(../assets/section_background_03_mobile.png) no-repeat bottom; 
@@ -173,6 +191,10 @@ body {
   #stargazer .input_field {
     width: 490px;
   }
+  #stargazer > div.container > div#thank_you_text {
+    width: 400px;
+    left: 10px;
+  }
   form#email_form {
     width: 550px;
   }
@@ -180,7 +202,7 @@ body {
     width: 550px;
   }
   #footer {
-    width: 100%;
+    width: 600px;
   }
   #footer img {
     padding-left: 100px;
@@ -200,7 +222,6 @@ body {
 
 #home > div.container {
   position: absolute;
-  top: 100px;
 }
 
 #home > div.container .content {
@@ -256,7 +277,6 @@ body {
 }
 
 #stargazer > div.container > div#email_entry_block {
-  width: 700px;
   float: right;
   position: absolute;
 }
@@ -279,8 +299,6 @@ body {
 }
 
 #stargazer > div.container > div#thank_you_text {
-  width: 700px;
-  left: 225px;
   top: 95px;
   position: relative;
   opacity: 0;
